@@ -1,8 +1,8 @@
 # CARLO
-2D Driving Simulator
+2D Autonomous Drone Simulator
 
 CARLO stands for _[CARLA](http://carla.org/) - Low Budget_. CARLO is definitely less realistic than CARLA, but it is much easier to play with. Most importantly, you can easily step the simulator in CARLO, and it is computationally much lighter.
-<img width="400" alt="CARLO - Example Image 1" src="carlo1.png" /><img width="400" alt="CARLO - Example Image 2" src="carlo2.png" />
+<img width="800" alt="CARLO - Example Image 1" src="sim_img" />
 
 ## Dependencies
 You need to have the following libraries with [Python3](http://www.python.org/downloads):
@@ -13,13 +13,10 @@ You need to have the following libraries with [Python3](http://www.python.org/do
 ## Running
 Simply run
 ```python
-	python example_intersection.py
+	python drone_simulation.py
 ```
-or
-```python
-	python example_circularroad.py
-```
-for simple demos. The former has an example of how to use Steering Wheel controller (only Logitech G29), and the latter shows how to use Keyboard controller. You can also have a look at these files to understand how to customize your own environment. It is very straightforward.
+
+for the drone demo demo. You can also have a look at these files to understand how to customize your own environment. It is very straightforward.
 
 ## Features
 CARLO currently supports Cars and Pedestrians as the dynamic objects. They both use bicycle dynamics. The point-mass dynamics are commented out in the code.
